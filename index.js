@@ -2,10 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import Button from '@material-ui/core/Button';
 import { Button } from './app/Button';
-import Demo from './demo';
 
-
-class HelloMessage extends React.Component {
+class App extends React.Component {
   render() {
     return (
       <div>
@@ -16,4 +14,4 @@ class HelloMessage extends React.Component {
 }
 
 var mountNode = document.getElementById("app");
-ReactDOM.render(<HelloMessage name="Jane" />, mountNode);
+ReactDOM.render(<App />, mountNode);
